@@ -1,0 +1,270 @@
+{
+  "continents": [
+    {
+      "id":1,
+      "slug":"europe",
+      "name": "Europa",
+      "summary": "O continente mais antigo.",
+      "carouselURL": "http://localhost:3004/images/europe.jpg"
+    },
+    {
+      "id":2,
+      "slug":"africa",
+      "name": "África",
+      "summary": "O continente mais quente.",
+      "carouselURL": "http://localhost:3004/images/africa.jpg"
+    },
+    {
+      "id":3,
+      "slug":"asia",
+      "name": "Ásia",
+      "summary": "O maior continente.",
+      "carouselURL": "http://localhost:3004/images/asia.jpg"
+    },
+    {
+      "id":4,
+      "slug":"north-america",
+      "name": "América do Norte",
+      "summary": "Lar do parque nacional de yellowstone.",
+      "carouselURL": "http://localhost:3004/images/north-america.jpg"
+    },
+    {
+      "id":5,
+      "slug":"south-america",
+      "name": "América do Sul",
+      "summary": "Lar da floresta amazônica.",
+      "carouselURL": "http://localhost:3004/images/south-america.jpg"
+    },
+    {
+      "id":6,
+      "slug":"oceania",
+      "name": "Oceania",
+      "summary": "Lar do maior recife de corais do mundo.",
+      "carouselURL": "http://localhost:3004/images/oceania.jpg"
+    }
+  ],
+  "continentInfo":[
+    {
+      "slug":"europe",
+      "name":"Europa",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "bannerImage": "http://localhost:3004/images/bannerEU.png",
+      "countries": 50,
+      "languages": 72,
+      "cities": 27,
+      "citiesList":"Roma, Praga, Amsterdã" ,
+      "cities100": [
+        {
+          "city": "Londres",
+          "country":"Reino Unido",
+          "thumbnail": "http://localhost:3004/images/london.png",
+          "flag":"http://localhost:3004/images/ukFlag.png"
+        },
+        {
+          "city": "Paris",
+          "country":"França",
+          "thumbnail": "http://localhost:3004/images/paris.png",
+          "flag":"http://localhost:3004/images/franceFlag.png"
+        },
+        {
+          "city": "Roma",
+          "country":"Itália",
+          "thumbnail": "http://localhost:3004/images/rome.png",
+          "flag":"http://localhost:3004/images/italyFlag.png"
+        },
+        {
+          "city": "Praga",
+          "country":"República Tcheca",
+          "thumbnail": "http://localhost:3004/images/prague.png",
+          "flag":"http://localhost:3004/images/czechFlag.png"
+        },
+        {
+          "city": "Amsterdã",
+          "country":"Holanda",
+          "thumbnail": "http://localhost:3004/images/amsterda.png",
+          "flag":"http://localhost:3004/images/netherlandsFlag.png"
+        }
+      ]
+    },
+    {
+      "slug":"asia",
+      "name":"Ásia",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+      "bannerImage": "http://localhost:3004/images/bannerAsia.png",
+      "countries": 50,
+      "languages": 199,
+      "cities": 53,
+      "citiesList":"Tóquio, Deli, Meca" ,
+      "cities100": [
+        {
+          "city": "Hong Kong",
+          "country":"China",
+          "thumbnail": "http://localhost:3004/images/hong-kong.jpg",
+          "flag":"http://localhost:3004/images/chinaFlag.png"
+        },
+        {
+          "city": "Bangkok",
+          "country":"Tailândia",
+          "thumbnail": "http://localhost:3004/images/bangkok.png",
+          "flag":"http://localhost:3004/images/thailandFlag.png"
+        },
+        {
+          "city": "Singapura",
+          "country":"Singapura",
+          "thumbnail": "http://localhost:3004/images/singapore.png",
+          "flag":"http://localhost:3004/images/singaporeFlag.png"
+        },
+        {
+          "city": "Dubai",
+          "country":"EAU",
+          "thumbnail": "http://localhost:3004/images/dubai.png",
+          "flag":"http://localhost:3004/images/uaeFlag.png"
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country":"Malásia",
+          "thumbnail": "http://localhost:3004/images/kuala-lumpur.png",
+          "flag":"http://localhost:3004/images/malaysiaFlag.png"
+        }
+      ]
+    },
+    {
+      "slug":"africa",
+      "name":"África",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta.É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "bannerImage": "http://localhost:3004/images/bannerAfrica.png",
+      "countries": 54,
+      "languages": 197,
+      "cities": 4,
+      "citiesList":"Cairo, Johanesburgo, Marrakech" ,
+      "cities100": [
+        {
+          "city": "Cairo",
+          "country":"Egito",
+          "thumbnail": "http://localhost:3004/images/cairo.png",
+          "flag":"http://localhost:3004/images/egyptFlag.png"
+        },
+        {
+          "city": "Johanesburgo",
+          "country":"África do Sul",
+          "thumbnail": "http://localhost:3004/images/johannesburg.png",
+          "flag":"http://localhost:3004/images/southAfricaFlag.png"
+        },
+        {
+          "city": "Marrakech",
+          "country":"Marrocos",
+          "thumbnail": "http://localhost:3004/images/marrakech.png",
+          "flag":"http://localhost:3004/images/marrocosFlag.png"
+        },
+        {
+          "city": "Hurghada",
+          "country":"Egito",
+          "thumbnail": "http://localhost:3004/images/hurghada.png",
+          "flag":"http://localhost:3004/images/egyptFlag.png"
+        }
+      ]
+    },
+    {
+      "slug":"north-america",
+      "name":"América do Norte",
+      "description": "A América do Norte é um continente no Hemisfério Norte e quase inteiramente no Hemisfério Ocidental. Também pode ser descrito como o subcontinente norte de um único continente, a América. É limitado a norte pelo Oceano Ártico, a leste pelo Oceano Atlântico, a sudeste pela América do Sul e pelo Mar do Caribe e a oeste e sul pelo Oceano Pacífico.",
+      "bannerImage": "http://localhost:3004/images/bannerNorthAmerica.png",
+      "countries": 23,
+      "languages": 34,
+      "cities": 10,
+      "citiesList":"Los Angeles, Vancouver, São Francisco" ,
+      "cities100": [
+        {
+          "city": "Nova Iorque",
+          "country":"Estados Unidos",
+          "thumbnail": "http://localhost:3004/images/new-york.png",
+          "flag":"http://localhost:3004/images/usFlag.png"
+        },
+        {
+          "city": "Miami",
+          "country":"Estados Unidos",
+          "thumbnail": "http://localhost:3004/images/miami.png",
+          "flag":"http://localhost:3004/images/usFlag.png"
+        },
+        {
+          "city": "Las Vegas",
+          "country":"Estados Unidos",
+          "thumbnail": "http://localhost:3004/images/las-vegas.png",
+          "flag":"http://localhost:3004/images/usFlag.png"
+        },
+        {
+          "city": "Cancun",
+          "country":"México",
+          "thumbnail": "http://localhost:3004/images/cancun.png",
+          "flag":"http://localhost:3004/images/mexicoFlag.png"
+        },
+        {
+          "city": "Toronto",
+          "country":"Canadá",
+          "thumbnail": "http://localhost:3004/images/toronto.png",
+          "flag":"http://localhost:3004/images/canadaFlag.png"
+        }
+      ]
+    },
+    {
+      "slug":"south-america",
+      "name":"América do Sul",
+      "description": "A América do Sul é um continente inteiramente no Hemisfério Ocidental e principalmente no Hemisfério Sul, com uma porção relativamente pequena no Hemisfério Norte. Ela é limitada a oeste pelo Oceano Pacífico e ao norte e leste pelo Oceano Atlântico; A América do Norte e o Mar do Caribe ficam a noroeste.",
+      "bannerImage": "http://localhost:3004/images/bannerSouthAmerica.png",
+      "countries": 12,
+      "languages": 34,
+      "cities": 3,
+      "citiesList":"Buenos Aires, Lima, Rio de Janeiro" ,
+      "cities100": [
+        {
+          "city": "Buenos Aires",
+          "country":"Argentina",
+          "thumbnail": "http://localhost:3004/images/buenos-aires.png",
+          "flag":"http://localhost:3004/images/argentinaFlag.png"
+        },
+        {
+          "city": "Lima",
+          "country":"Peru",
+          "thumbnail": "http://localhost:3004/images/lima.png",
+          "flag":"http://localhost:3004/images/peruFlag.png"
+        },
+        {
+          "city": "Rio de Janeiro",
+          "country":"Brasil",
+          "thumbnail": "http://localhost:3004/images/rio-de-janeiro.png",
+          "flag":"http://localhost:3004/images/brazilFlag.png"
+        }
+      ]
+    },
+    {
+      "slug":"oceania",
+      "name":"Oceania",
+      "description": "A Oceania é uma região geográfica que inclui Australásia, Melanésia, Micronésia e Polinésia. Abrangendo os hemisférios oriental e ocidental, a Oceania tem uma área de 8.525.989 quilômetros quadrados e uma população de mais de 41 milhões. Quando comparada com os continentes, a região da Oceania é a menor em área terrestre e a segunda menor em população depois da Antártica.",
+      "bannerImage": "http://localhost:3004/images/bannerOceania.png",
+      "countries": 16,
+      "languages": 38,
+      "cities": 3,
+      "citiesList":"Sydney, Melbourne, Auckland" ,
+      "cities100": [
+        {
+          "city": "Sydney",
+          "country":"Austrália",
+          "thumbnail": "http://localhost:3004/images/london.png",
+          "flag":"http://localhost:3004/images/australiaFlag.png"
+        },
+        {
+          "city": "Melbourne",
+          "country":"Austrália",
+          "thumbnail": "http://localhost:3004/images/melbourne.png",
+          "flag":"http://localhost:3004/images/australiaFlag.png"
+        },
+        {
+          "city": "Auckland",
+          "country":"Nova Zelândia",
+          "thumbnail": "http://localhost:3004/images/auckland.png",
+          "flag":"http://localhost:3004/images/newZelandFlag.png"
+        }
+      ]
+    }
+  ]
+}
